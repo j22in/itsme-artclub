@@ -1,0 +1,11 @@
+2026/06/25-02:39:56.595 e32413 Creating DB /Users/jeein/antigravity/It's-me!-Art-Club/scratch/chrome_profile/Default/Local Storage/leveldb since it was missing.
+2026/06/25-02:39:56.606 e32413 Reusing MANIFEST /Users/jeein/antigravity/It's-me!-Art-Club/scratch/chrome_profile/Default/Local Storage/leveldb/MANIFEST-000001
+2026/06/25-03:00:44.365 e32416 Level-0 table #5: started
+2026/06/25-03:00:44.374 e32416 Level-0 table #5: 113073 bytes OK
+2026/06/25-03:00:44.389 e32416 Delete type=0 #3
+2026/06/25-03:11:45.003 e32416 Level-0 table #7: started
+2026/06/25-03:11:45.005 e32416 Level-0 table #7: 26604 bytes OK
+2026/06/25-03:11:45.007 e32416 Delete type=0 #4
+2026/06/25-03:32:44.959 e32416 Level-0 table #9: started
+2026/06/25-03:32:44.963 e32416 Level-0 table #9: 17225 bytes OK
+2026/06/25-03:32:44.965 e32416 Delete type=0 #6

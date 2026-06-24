@@ -1,0 +1,6 @@
+2026/06/25-02:58:45.348 e323b9 Creating DB /Users/jeein/antigravity/It's-me!-Art-Club/scratch/chrome_profile/Default/IndexedDB/https_vercel.com_0.indexeddb.leveldb since it was missing.
+2026/06/25-02:58:45.352 e323b9 Reusing MANIFEST /Users/jeein/antigravity/It's-me!-Art-Club/scratch/chrome_profile/Default/IndexedDB/https_vercel.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/06/25-03:00:59.316 e323bb Level-0 table #5: started
+2026/06/25-03:00:59.319 e323bb Level-0 table #5: 1718 bytes OK
+2026/06/25-03:00:59.325 e323bb Delete type=0 #3
+2026/06/25-03:00:59.326 e323bb Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Gaegu:wght@400;700&family=Patrick+Hand&family=Noto+Sans+KR:wght@300;400;500;700;900&family=Cormorant+Garamond:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'YoonChildfundkoreaMinGuk';
+  src: url('/fonts/YoonChildfundkoreaMinGuk.woff2') format('woff2'),
+       url('/fonts/YoonChildfundkoreaMinGuk.otf') format('opentype'),
+       url('/fonts/YoonChildfundkoreaMinGuk.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme {
+  --font-sans: "Noto Sans KR", "Outfit", system-ui, sans-serif;
+  --font-mono: "Noto Sans KR", "Space Grotesk", "Space Mono", monospace;
+  --font-handy: "YoonChildfundkoreaMinGuk", "Patrick Hand", "Gaegu", cursive;
+  --font-cormorant: "Cormorant Garamond", serif;
+}
+
+body {
+  font-family: var(--font-sans);
+  line-height: 2;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: inherit;
+}
+
+/* Force apply uploaded local font to font-handy elements to avoid path/compile issues */
+.font-handy {
+  font-family: 'YoonChildfundkoreaMinGuk', 'Patrick Hand', 'Gaegu', cursive !important;
+}
+
+.font-cormorant {
+  font-family: 'Cormorant Garamond', serif !important;
+}
+
+
+
