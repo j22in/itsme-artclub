@@ -1,5 +1,5 @@
 {
-   "checksum": "6f13927db7b72358a6d0dd61b1423262",
+   "checksum": "7483a813fc3a1d787120b01c9ce69f4f",
    "roots": {
       "bookmark_bar": {
          "children": [ {
@@ -15,7 +15,7 @@
             "url": "https://new.smartplace.naver.com/"
          }, {
             "date_added": "13426767680726680",
-            "date_last_used": "13426790384842255",
+            "date_last_used": "13426843489672659",
             "guid": "203b2b4d-b6b5-46aa-bdaf-61959f159b7b",
             "id": "6",
             "meta_info": {
@@ -26,7 +26,7 @@
             "url": "https://docs.google.com/spreadsheets/d/1wWvpu4diKa15bTyjsynyaprRnIX7HTTavaSogH6sjDc/edit?gid=1141222100#gid=1141222100"
          }, {
             "date_added": "13426769453320554",
-            "date_last_used": "13426797314157875",
+            "date_last_used": "13426843916544039",
             "guid": "bfe84d3f-62bc-492d-b6ba-11768431b975",
             "id": "7",
             "meta_info": {
@@ -37,7 +37,7 @@
             "url": "https://gemini.google.com/app?is_sa=1&is_sa=1&android-min-version=301356232&ios-min-version=322.0&campaign_id=bkws&utm_source=sem&utm_medium=paid-media&utm_campaign=bkws&pt=9008&mt=8&ct=p-growth-sem-bkws&gclsrc=aw.ds&gad_source=1&gad_campaignid=20437330476&gbraid=0AAAAApk5Bhlth7aUJq6gisxZMIjVBLyd-&gclid=CjwKCAjwgO7RBhBKEiwAZNP85pbNnYcwGD5WAovzjRdQU99ePpSDO5P2VxcI-IWK7uexIAgNg-sMBhoCOOgQAvD_BwE"
          }, {
             "date_added": "13426791157544122",
-            "date_last_used": "13426797625573007",
+            "date_last_used": "13426843364925330",
             "guid": "e012815b-68fb-4a03-93ad-7de781e92538",
             "id": "8",
             "meta_info": {
@@ -46,10 +46,54 @@
             "name": "로그인 - Google 계정",
             "type": "url",
             "url": "https://accounts.google.com/signin/oauth/id?authuser=0&part=AJi8hAN45Q1q9nn4LYZwNnpEVMbADO_PFaW8l4Lhl5ap1pdhXojbtrUK7IXT6wUzxDBCFO2KeglyK_L3V-jW3CiS2deN89q-RC-7svantydzAzsHm1StmodUqLtyBaOKcE5BkChmBu5l8UGzFKrFjbMeMiWv0_LDa_OjlUA_X1Zhz21nNAlrxBbuaS4u_6awjgrCdn8bZxh4UqvAGOFKrhnKeVmeTgopcr3gvxQpZt_y0Tqqj980pg9FixMKyUwijMIbnDulsxvckG2TZKkpgaYr_lFNs4yPQa4x6CRAYA1_FROmLi6_qrC2fh5kORPpHmAKqo4WA2govvGY57OXzUiFkYmEC-UXSwxu9BMxF6I0VX7Y2ALYhRJ3bDZa_feCTw39sH41ucBMw17lo2qK7bKthvafpNzxA-sWpct-alcCyYYzmRlvENeWkrq1MB_0KcTAlb4vc-qFPEPQpbkuRkCsMmTSAvwfChVdtoN4ofQs5fDzn4NfTiM68yFbnO_efZ66oiiVTX2ySq7l6f7JSgM1f7rqpRn01st9WB98ER-rtxpb4yskgaA-kjb0V3n4NyeTWDdBjT1eNvSfQgaIPtQjqzXXl0MixVSH6fr1Rb-RDcVRGFXatJQDfXHVl2re860Zp1umchICzfQi6albewPTXvatwGtGnUk9ll0BSNbRlLAPzfb8xABfGfCv4KUmHc38iYeAeevwWMQc1dpo08BgNtucQTjZHZP0CSNCsRnL5GEh5izQHcIqoAvMaY7QbBi1Rlhd974-BUp-MtNSPy9wudbSBaQFHGB17ZDI7K9UIb7Gp_PTABSdCSjFw7_GJEskXZJFWzThd_Kq-RoOMCRegg0ffczTXA&flowName=GeneralOAuthFlow&as=S-1174087895%3A1782317550313714&client_id=799222349882-ne3i0s9jdm5s0p7ll2d7tlsi1vc1halt.apps.googleusercontent.com&rapt=AEjHL4OqXWKmkZ2_v9VnXRARLcOSeGn5Br4EfxkfEZgV_UFH1g2FpECH8161P23278DY_I0y7k6DUA7ABUfBILEngpcKXGzTkEvPSbQRSCkOCFLka_fmOso#"
+         }, {
+            "date_added": "13426832009764617",
+            "date_last_used": "13426836367281535",
+            "guid": "c44eeb11-8ae4-472f-ba5d-ae104ba29486",
+            "id": "9",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "It's me! Art Club | 이츠미아트클럽",
+            "type": "url",
+            "url": "https://www.itsmeartclub.com/"
+         }, {
+            "date_added": "13426836238925721",
+            "date_last_used": "13426839956115447",
+            "guid": "771e411b-7c4b-445b-af24-938b4a7fdd05",
+            "id": "10",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Pinterest",
+            "type": "url",
+            "url": "https://kr.pinterest.com/"
+         }, {
+            "date_added": "13426836371772405",
+            "date_last_used": "0",
+            "guid": "e8f9c17c-97bc-47be-9012-a348f94b8b10",
+            "id": "11",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "카카오비즈니스 파트너센터",
+            "type": "url",
+            "url": "https://business.kakao.com/_wlFGn/chats?t_src=business_partnercenter&t_ch=lnb&t_obj=%EB%82%B4%EC%B1%84%ED%8C%85_%ED%81%B4%EB%A6%AD"
+         }, {
+            "date_added": "13426836420438301",
+            "date_last_used": "0",
+            "guid": "0c9ef7a9-10e0-4cb2-9100-edea80beedbb",
+            "id": "13",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "NAVER",
+            "type": "url",
+            "url": "https://www.naver.com/"
          } ],
          "date_added": "13426763257960526",
          "date_last_used": "0",
-         "date_modified": "13426791157544122",
+         "date_modified": "13426836420438301",
          "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
          "id": "1",
          "name": "Bookmarks Bar",

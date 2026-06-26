@@ -1,2 +1,48 @@
-2026/06/25-02:30:06.365 e323b9 Creating DB /Users/jeein/antigravity/It's-me!-Art-Club/scratch/chrome_profile/Default/IndexedDB/https_kr.pinterest.com_0.indexeddb.leveldb since it was missing.
-2026/06/25-02:30:06.373 e323b9 Reusing MANIFEST /Users/jeein/antigravity/It's-me!-Art-Club/scratch/chrome_profile/Default/IndexedDB/https_kr.pinterest.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/06/25-14:45:57.922 e323b9 Reusing MANIFEST /Users/jeein/antigravity/It's-me!-Art-Club/scratch/chrome_profile/Default/IndexedDB/https_kr.pinterest.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/06/25-14:45:57.923 e323b9 Recovering log #6
+2026/06/25-14:45:57.923 e323b9 Reusing old log /Users/jeein/antigravity/It's-me!-Art-Club/scratch/chrome_profile/Default/IndexedDB/https_kr.pinterest.com_0.indexeddb.leveldb/000006.log 
+2026/06/25-15:29:16.323 e323bb Level-0 table #11: started
+2026/06/25-15:29:16.344 e323bb Level-0 table #11: 1801249 bytes OK
+2026/06/25-15:29:16.346 e323bb Delete type=0 #6
+2026/06/25-15:29:23.962 e323c6 Compacting 1@1 + 1@2 files
+2026/06/25-15:29:23.973 e323c6 Generated table #12@1: 63 keys, 11465 bytes
+2026/06/25-15:29:23.973 e323c6 Compacted 1@1 + 1@2 files => 11465 bytes
+2026/06/25-15:29:23.988 e323c6 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/06/25-15:29:23.988 e323c6 Delete type=2 #11
+2026/06/25-15:29:23.988 e323c6 Delete type=2 #8
+2026/06/25-15:32:00.262 e323c6 Level-0 table #14: started
+2026/06/25-15:32:00.275 e323c6 Level-0 table #14: 1895575 bytes OK
+2026/06/25-15:32:00.278 e323c6 Delete type=0 #10
+2026/06/25-15:32:10.566 e323b9 Compacting 1@1 + 1@2 files
+2026/06/25-15:32:10.581 e323b9 Generated table #15@1: 93 keys, 21807 bytes
+2026/06/25-15:32:10.581 e323b9 Compacted 1@1 + 1@2 files => 21807 bytes
+2026/06/25-15:32:10.583 e323b9 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/06/25-15:32:10.583 e323b9 Delete type=2 #14
+2026/06/25-15:32:10.583 e323b9 Delete type=2 #12
+2026/06/25-15:40:38.345 e323bb Level-0 table #17: started
+2026/06/25-15:40:38.364 e323bb Level-0 table #17: 1856221 bytes OK
+2026/06/25-15:40:38.367 e323bb Delete type=0 #13
+2026/06/25-15:40:42.485 e323c6 Compacting 1@1 + 1@2 files
+2026/06/25-15:40:42.500 e323c6 Generated table #18@1: 31 keys, 695 bytes
+2026/06/25-15:40:42.500 e323c6 Compacted 1@1 + 1@2 files => 695 bytes
+2026/06/25-15:40:42.502 e323c6 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/06/25-15:40:42.502 e323c6 Delete type=2 #15
+2026/06/25-15:40:42.502 e323c6 Delete type=2 #17
+2026/06/25-15:42:02.540 e323bb Level-0 table #20: started
+2026/06/25-15:42:02.556 e323bb Level-0 table #20: 1710797 bytes OK
+2026/06/25-15:42:02.559 e323bb Delete type=0 #16
+2026/06/25-15:42:29.307 e323b9 Compacting 1@1 + 1@2 files
+2026/06/25-15:42:29.316 e323b9 Generated table #21@1: 43 keys, 4577 bytes
+2026/06/25-15:42:29.316 e323b9 Compacted 1@1 + 1@2 files => 4577 bytes
+2026/06/25-15:42:29.319 e323b9 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/06/25-15:42:29.320 e323b9 Delete type=2 #20
+2026/06/25-15:42:29.320 e323b9 Delete type=2 #18
+2026/06/25-16:59:32.259 e323b9 Level-0 table #23: started
+2026/06/25-16:59:32.276 e323b9 Level-0 table #23: 1787147 bytes OK
+2026/06/25-16:59:32.281 e323b9 Delete type=0 #19
+2026/06/25-16:59:36.836 e323c6 Compacting 1@1 + 1@2 files
+2026/06/25-16:59:36.844 e323c6 Generated table #24@1: 47 keys, 5707 bytes
+2026/06/25-16:59:36.844 e323c6 Compacted 1@1 + 1@2 files => 5707 bytes
+2026/06/25-16:59:36.850 e323c6 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/06/25-16:59:36.850 e323c6 Delete type=2 #21
+2026/06/25-16:59:36.850 e323c6 Delete type=2 #23

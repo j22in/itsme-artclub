@@ -1,2 +1,3 @@
-2026/06/25-02:58:51.621 e323b9 Creating DB /Users/jeein/antigravity/It's-me!-Art-Club/scratch/chrome_profile/Default/WebStorage/23/IndexedDB/indexeddb.leveldb since it was missing.
-2026/06/25-02:58:51.624 e323b9 Reusing MANIFEST /Users/jeein/antigravity/It's-me!-Art-Club/scratch/chrome_profile/Default/WebStorage/23/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+2026/06/25-04:08:13.105 e323bb Reusing MANIFEST /Users/jeein/antigravity/It's-me!-Art-Club/scratch/chrome_profile/Default/WebStorage/23/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+2026/06/25-04:08:13.105 e323bb Recovering log #4
+2026/06/25-04:08:13.105 e323bb Reusing old log /Users/jeein/antigravity/It's-me!-Art-Club/scratch/chrome_profile/Default/WebStorage/23/IndexedDB/indexeddb.leveldb/000004.log 

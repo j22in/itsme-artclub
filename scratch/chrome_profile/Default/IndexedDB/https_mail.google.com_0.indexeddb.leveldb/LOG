@@ -1,2 +1,7 @@
-2026/06/25-03:00:57.168 e323c6 Creating DB /Users/jeein/antigravity/It's-me!-Art-Club/scratch/chrome_profile/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb since it was missing.
-2026/06/25-03:00:57.170 e323c6 Reusing MANIFEST /Users/jeein/antigravity/It's-me!-Art-Club/scratch/chrome_profile/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/06/25-13:48:35.514 e323b9 Reusing MANIFEST /Users/jeein/antigravity/It's-me!-Art-Club/scratch/chrome_profile/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/06/25-13:48:35.514 e323b9 Recovering log #3
+2026/06/25-13:48:35.518 e323b9 Reusing old log /Users/jeein/antigravity/It's-me!-Art-Club/scratch/chrome_profile/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000003.log 
+2026/06/25-14:46:28.160 e323b9 Level-0 table #5: started
+2026/06/25-14:46:28.169 e323b9 Level-0 table #5: 129848 bytes OK
+2026/06/25-14:46:28.171 e323b9 Delete type=0 #3
+2026/06/25-14:46:28.173 e323b9 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
