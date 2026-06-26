@@ -282,7 +282,6 @@ export default function BouncingAlphabets({
     <div
       ref={canvasRef}
       className="absolute inset-0 w-full h-full z-10 overflow-hidden"
-      style={{ touchAction: 'none' }}
       onPointerDown={onPointerDown}
       onPointerMove={onPointerMove}
       onPointerUp={onPointerUp}
@@ -299,6 +298,7 @@ export default function BouncingAlphabets({
               height: b.h,
               left:   cx - b.w / 2,
               top:    cy - b.h / 2,
+              touchAction: 'none',
               transform: `rotate(${b.rot}deg)`,
               cursor: 'grab',
               filter: b.pinned
