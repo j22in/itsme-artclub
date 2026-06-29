@@ -68,7 +68,7 @@ export default function Navbar({ onNavigate, currentSection, forceShow = false }
 
   const menuItems = [
     { id: 'hero', label: 'Home' },
-    { id: 'about', label: 'About Us' },
+    { id: 'about', label: 'our story' },
     { id: 'classes', label: 'Classes' },
     { id: 'contact', label: 'Business' },
     { id: 'instagram', label: 'Instagram', link: 'https://www.instagram.com/itsme_artclub' }
