@@ -75,7 +75,7 @@ export default function AboutSection() {
               이츠미아트클럽은 한창 다양한 경험을 추구하고 온몸으로 세상을 흡수하는 5세부터 7세까지의 유아기를 위한 경험 중심 <span className="font-medium text-neutral-900">영어 키즈 아트 클래스</span>를 제공합니다.
             </p>
             <p className="font-sans font-light text-[13px] text-[#4F4A45] leading-[2.0] mt-4">
-              아이들의 세계라서 타협하지 않고 끝까지 감각적인 경험을 담아냅니다.
+              아이들의 세계라 해서 타협하지 않고, 끝까지 감각적인 경험을 담아냅니다. 실제 클래스 현장에서 아이들이 온몸으로 만끽하는 <span className="font-medium text-neutral-900">가장 즐거운 시간</span>을 선물합니다.
             </p>
           </motion.div>
           
@@ -112,7 +112,7 @@ export default function AboutSection() {
                 아이들의 평생 기억에 저장되는 시간
               </h3>
               <p className="text-[13px] font-sans font-light leading-[2.0] text-[#4F4A45]">
-                무엇이 아이들을 위한 교육인지 혼란스러운 요즘, 이츠미아트클럽은 변하지 않는 가치인 즐거움과 경험에 집중합니다. 온몸으로 부딪히며 함께 웃고, 상상하고, 표현하는 이 시간들은 단순한 배움 이상의 기억으로 남아 아이들만의 세계관과 사고의 지평을 확장하는 밑거름이 됩니다.
+                아이들을 위한 교육이 무엇인지 더욱 혼란스러운 요즘, 이츠미아트클럽은 변하지 않는 가치인 즐거움과 경험에 집중합니다. 온몸으로 부딪히며 함께 웃고, 상상하고, 표현하는 이 시간들은 단순한 배움 이상의 기억으로 남아 아이들만의 세계관과 사고의 지평을 확장하는 밑거름이 됩니다.
               </p>
               <p className="text-[13px] font-sans font-light leading-[2.0] text-[#4F4A45]">
                 이츠미 클래스는 다채로운 테마 활동과 감각적인 게임, 그리고 깊이 있는 교감에 온전히 몰입하는 '진짜 내가 되는 순간'을 만들어갑니다.
