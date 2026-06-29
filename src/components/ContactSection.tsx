@@ -69,10 +69,6 @@ export default function ContactSection() {
           <h2 className="text-[33px] font-handy font-normal text-[#FF5F1F] tracking-wide">
             Business Partnership
           </h2>
-          <p className="text-[13px] font-sans font-light text-[#4F4A45] max-w-lg mx-auto">
-            이츠미아트클럽의 독보적인 감각 프로그램과 시너지 나는 협업을 펼쳐보세요.
-            귀사의 가치를 높이는 프리미엄 콘텐츠를 제안합니다.
-          </p>
         </motion.div>
 
         {/* Action Title */}
