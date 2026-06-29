@@ -6,16 +6,19 @@ export default function AboutSection() {
     {
       title: 'Book & Art',
       image: '/images/program_book.png',
+      tape: '/images/tape1.png',
       desc: '영어 동화를 함께 읽고 이야기를 확장하며, 그림과 만들기 등 다양한 예술 활동으로 연결되는 통합 클래스입니다.',
     },
     {
       title: 'Kids Baking',
       image: '/images/program_baking.png',
+      tape: '/images/tape2.png',
       desc: '재료를 보고, 만지고, 직접 만들어보며 오감을 깨우는 시간. 즐거운 베이킹 경험 속에서 자연스럽게 영어와 친숙해집니다.',
     },
     {
       title: 'Roleplay & Craft',
       image: '/images/program_roleplay.png',
+      tape: '/images/tape3.png',
       desc: '다양한 상황 속 역할놀이를 통해 영어 표현을 자연스럽게 사용해 보고, 상상력과 손끝의 창의성을 함께 키워가는 클래스입니다.',
     }
   ];
@@ -176,8 +179,15 @@ export default function AboutSection() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: "-50px" }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
-                className="bg-transparent flex flex-col space-y-4 w-[180px] mx-auto"
+                className="bg-transparent flex flex-col space-y-4 w-[180px] mx-auto relative mt-4"
               >
+                {/* Tape Overlay */}
+                <img
+                  src={prog.tape}
+                  alt=""
+                  className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[180px] z-20 pointer-events-none drop-shadow-sm"
+                  referrerPolicy="no-referrer"
+                />
                 <div className="w-[180px] h-[144px] relative overflow-hidden rounded-none bg-neutral-100 mx-auto">
                   <img 
                     src={prog.image} 
