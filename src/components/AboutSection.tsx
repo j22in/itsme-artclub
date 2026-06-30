@@ -179,16 +179,16 @@ export default function AboutSection() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: "-50px" }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
-                className="bg-transparent flex flex-col space-y-4 w-[180px] mx-auto relative mt-4"
+                className="bg-transparent flex flex-col space-y-4 w-[200px] mx-auto relative mt-4"
               >
                 {/* Tape Overlay */}
                 <img
                   src={prog.tape}
                   alt=""
-                  className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[180px] z-20 pointer-events-none drop-shadow-sm"
+                  className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[200px] z-20 pointer-events-none drop-shadow-sm"
                   referrerPolicy="no-referrer"
                 />
-                <div className="w-[180px] h-[144px] relative overflow-hidden rounded-none bg-neutral-100 mx-auto">
+                <div className="w-[200px] h-[160px] relative overflow-hidden rounded-none bg-neutral-100 mx-auto">
                   <img 
                     src={prog.image} 
                     alt={prog.title} 
