@@ -83,10 +83,10 @@ export default function ContactSection() {
           className="space-y-1"
         >
           <h3 className="text-lg md:text-xl font-bold text-neutral-900 tracking-tight">
-            출강 및 제휴 문의하기
+            비즈니스 문의하기
           </h3>
           <p className="text-[11px] text-neutral-400 font-sans">
-            필요한 정보를 입력하신 뒤 전송해주시면 신속히 응대하겠습니다.
+            필요한 정보를 입력하신 뒤 전송해주시면 빠르게 연락드리겠습니다.
           </p>
         </motion.div>
 
