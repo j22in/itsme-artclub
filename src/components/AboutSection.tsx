@@ -39,7 +39,7 @@ export default function AboutSection() {
             our classes
           </h2>
           <p className="text-[13px] font-sans font-light text-[#4F4A45] tracking-wide">
-            이츠미아트클럽의 이야기
+            이츠미아트클럽 클래스 이야기
           </p>
         </motion.div>
 
