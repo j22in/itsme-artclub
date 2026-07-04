@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react';
 import { Routes, Route, useLocation } from 'react-router-dom';
-import { X } from 'lucide-react';
 import Navbar from './components/Navbar';
 import CustomCursor from './components/CustomCursor';
 
@@ -11,18 +10,7 @@ import Business from './pages/Business';
 
 export default function App() {
   const [isLogoHovered, setIsLogoHovered] = useState(false);
-  const [showMobileFab, setShowMobileFab] = useState(false);
   const location = useLocation();
-
-  // Monitor scroll for mobile FAB visibility
-  useEffect(() => {
-    const handleScrollForFab = () => {
-      setShowMobileFab(window.scrollY > 100);
-    };
-    window.addEventListener('scroll', handleScrollForFab, { passive: true });
-    handleScrollForFab();
-    return () => window.removeEventListener('scroll', handleScrollForFab);
-  }, []);
 
   // Scroll to top on route change
   useEffect(() => {
@@ -80,20 +68,16 @@ export default function App() {
       </div>
 
       {/* Mobile Floating Action Button (Menu Toggle) */}
-      {(showMobileFab || isLogoHovered) && (
+      {!isLogoHovered && (
         <div
           className="md:hidden fixed bottom-6 right-6 w-14 h-14 rounded-full overflow-hidden flex items-center justify-center z-[100] cursor-pointer bg-white/90 backdrop-blur-md shadow-lg pointer-events-auto transition-transform active:scale-95 border border-neutral-200"
-          onClick={() => setIsLogoHovered(prev => !prev)}
+          onClick={() => setIsLogoHovered(true)}
         >
-          {isLogoHovered ? (
-            <X className="w-6 h-6 text-neutral-800" />
-          ) : (
-            <img
-              src="/logo.png"
-              alt="Menu toggle"
-              className="w-full h-full object-contain"
-            />
-          )}
+          <img
+            src="/logo.png"
+            alt="Menu toggle"
+            className="w-full h-full object-contain"
+          />
         </div>
       )}
 

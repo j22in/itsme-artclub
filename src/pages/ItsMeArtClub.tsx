@@ -6,7 +6,7 @@ export default function ItsMeArtClub() {
     <div className="w-full min-h-screen bg-transparent pt-0 pb-20 flex flex-col items-center select-none">
       
       {/* Top Full-width Image Section with Text Overlay */}
-      <div className="relative w-full h-[60vh] md:h-[75vh] overflow-hidden">
+      <div className="relative w-full h-screen overflow-hidden">
         <img 
           src="/images/about_brand.png" 
           alt="Kids baking" 
@@ -28,7 +28,7 @@ export default function ItsMeArtClub() {
             아이들은 결과보다<br/>
             경험을 기억합니다.<br/>
             좋은 경험은 감각이 되고,<br/>
-            감각은 안목과 취향이 됩니다.
+            감각은 <span className="font-bold">안목과 취향</span>이 됩니다.
           </motion.div>
 
           {/* Paragraph 2 (Bottom-Right) */}
@@ -36,7 +36,7 @@ export default function ItsMeArtClub() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
-            className="absolute bottom-[20%] md:bottom-[20%] right-6 md:right-4 text-white font-sans text-[12px] md:text-[13px] leading-[1.8] font-medium"
+            className="absolute bottom-[20%] md:bottom-[20%] right-6 md:right-4 text-white font-sans text-[12px] md:text-[13px] leading-[1.8] font-light"
           >
             아이들의 감각을 키우는<br/>
             창작 콘텐츠를 기획하고<br/>

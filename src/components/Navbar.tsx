@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Link, useLocation } from 'react-router-dom';
-import { ChevronDown } from 'lucide-react';
+import { ChevronDown, X } from 'lucide-react';
 
 interface NavbarProps {
   forceShow?: boolean;
@@ -223,6 +223,16 @@ export default function Navbar({ forceShow = false, onMenuToggle }: NavbarProps)
             })}
           </nav>
         </motion.div>
+
+        {/* Mobile Close Button below the Navbar */}
+        <div className={`md:hidden mt-4 pointer-events-auto flex justify-center w-full transition-opacity duration-300 ${isVisible ? 'opacity-100' : 'opacity-0'}`}>
+          <button
+            onClick={closeMenu}
+            className="w-12 h-12 rounded-full bg-white/90 backdrop-blur-md shadow-lg border border-neutral-200 flex items-center justify-center text-neutral-800 transition-transform active:scale-95"
+          >
+            <X className="w-5 h-5" />
+          </button>
+        </div>
       </header>
     </>
   );
