@@ -100,7 +100,7 @@ export default function HeroSection({ onScrollToNext, onLogoHover }: HeroSection
       >
         <div className="space-y-3 flex flex-col items-center justify-center">
           <p className="text-[13px] font-cormorant text-[#000000] tracking-[0.25em] font-normal normal-case">
-            kids English &amp; art class
+            creative experiences for kids
           </p>
           <h1 className="text-[20px] font-handy text-[#000000] font-normal tracking-wide">
             선물같은 시간, it's me! art club

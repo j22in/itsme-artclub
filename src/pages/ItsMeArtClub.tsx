@@ -55,7 +55,7 @@ export default function ItsMeArtClub() {
         className="w-full max-w-[900px] mx-auto px-6 mt-20 text-center flex flex-col items-center space-y-16"
       >
         
-        <div className="space-y-4">
+        <div className="space-y-8 mb-12">
           <h2 className="text-[15px] font-bold font-sans text-neutral-900 tracking-wide">
             it's me art club
           </h2>
