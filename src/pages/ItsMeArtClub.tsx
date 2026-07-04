@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom';
 
 export default function ItsMeArtClub() {
   return (
-    <div className="w-full min-h-screen bg-transparent pt-24 pb-20 flex flex-col items-center select-none">
+    <div className="w-full min-h-screen bg-transparent pt-0 pb-20 flex flex-col items-center select-none">
       
       {/* Top Full-width Image Section with Text Overlay */}
-      <div className="relative w-full h-[50vh] md:h-[65vh] overflow-hidden">
+      <div className="relative w-full h-[60vh] md:h-[75vh] overflow-hidden">
         <img 
           src="/images/about_brand.png" 
           alt="Kids baking" 
@@ -59,18 +59,18 @@ export default function ItsMeArtClub() {
           <h2 className="text-[15px] font-bold font-sans text-neutral-900 tracking-wide">
             it's me art club
           </h2>
-          <div className="space-y-1 text-[12px] md:text-[13px] font-sans font-light text-neutral-500">
+          <div className="space-y-1 text-[14px] font-sans font-light text-neutral-500">
             <p>Creative Experiences for Kids</p>
             <p>아이들에게 오래 기억에 남을 경험을 디자인합니다.</p>
           </div>
         </div>
 
-        <ul className="space-y-4 text-[13px] md:text-[14px] font-sans font-bold text-neutral-800">
-          <li>Classes</li>
-          <li>Pop-ups</li>
-          <li>Collaborations</li>
-          <li>Creative Kits</li>
-          <li>Kids Goods</li>
+        <ul className="space-y-4 text-[13px] font-sans font-medium text-neutral-800">
+          <li>classes</li>
+          <li>pop-ups</li>
+          <li>collaborations</li>
+          <li>creative kits</li>
+          <li>kids goods</li>
         </ul>
 
         <div>
