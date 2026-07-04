@@ -36,7 +36,7 @@ export default function AboutSection() {
           className="text-center space-y-2"
         >
           <h2 className="text-[33px] font-handy font-normal text-[#FF5F1F] tracking-wide">
-            Our story
+            our classes
           </h2>
           <p className="text-[13px] font-sans font-light text-[#4F4A45] tracking-wide">
             이츠미아트클럽의 이야기

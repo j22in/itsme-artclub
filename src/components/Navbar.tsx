@@ -67,8 +67,8 @@ export default function Navbar({ forceShow = false, onMenuToggle }: NavbarProps)
       id: 'our-story', 
       label: 'our story', 
       children: [
-        { id: 'itsme-art-club', label: 'itsme art club', path: '/our-story/itsme-art-club' },
-        { id: 'classes', label: 'classes', path: '/our-story/classes' }
+        { id: 'itsme-art-club', label: "it's me! art club", path: '/our-story/itsme-art-club' },
+        { id: 'classes', label: 'our classes', path: '/our-story/classes' }
       ]
     },
     { id: 'business', label: 'Business', path: '/business' },
