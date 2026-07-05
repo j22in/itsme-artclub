@@ -33,6 +33,7 @@ export default function Navbar({ forceShow = false, onMenuToggle }: NavbarProps)
 
   useEffect(() => {
     const handleMouseMove = (e: MouseEvent) => {
+      if (window.innerWidth < 768) return; // Disable on mobile
       if (e.clientY < 100) {
         setIsVisible(true);
       } else if (!isHoveredRef.current && window.scrollY > 80 && !forceShowRef.current) {
@@ -41,12 +42,12 @@ export default function Navbar({ forceShow = false, onMenuToggle }: NavbarProps)
     };
 
     const handleScroll = () => {
-      if (forceShowRef.current) return;
+      if (forceShowRef.current || window.innerWidth < 768) return; // Disable on mobile
 
       if (!isHoveredRef.current && window.scrollY > 50) {
         setIsVisible(false);
         setActiveDropdown(null);
-      } else if (window.scrollY <= 50 && window.innerWidth >= 768) {
+      } else if (window.scrollY <= 50) {
         setIsVisible(true);
       }
     };

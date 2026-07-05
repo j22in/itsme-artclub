@@ -140,7 +140,8 @@ export default function TvGallery() {
               className="md:hidden absolute z-30 pointer-events-none text-[#FF5F1F] font-handy flex flex-col items-center leading-tight"
               style={{
                 left: '76.6%',       // Centered roughly over the dials
-                top: '2%',           // Above the dials
+                top: '13.1667%',     // Aligned with dials
+                marginTop: '-80px',  // Moved up 80px
                 transform: 'translateX(-50%)',
                 fontSize: '14px'
               }}
