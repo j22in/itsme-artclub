@@ -70,7 +70,7 @@ export default function App() {
       {/* Mobile Floating Action Button (Menu Toggle) */}
       {!isLogoHovered && (
         <div
-          className="md:hidden fixed bottom-6 right-6 w-14 h-14 rounded-full overflow-hidden flex items-center justify-center z-[100] cursor-pointer bg-white/90 backdrop-blur-md shadow-lg pointer-events-auto transition-transform active:scale-95 border border-neutral-200"
+          className="md:hidden fixed top-6 left-6 w-14 h-14 rounded-full overflow-hidden flex items-center justify-center z-[100] cursor-pointer bg-white/90 backdrop-blur-md shadow-lg pointer-events-auto transition-transform active:scale-95 border border-neutral-200"
           onClick={() => setIsLogoHovered(true)}
         >
           <img

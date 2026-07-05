@@ -46,12 +46,12 @@ export default function Navbar({ forceShow = false, onMenuToggle }: NavbarProps)
       if (!isHoveredRef.current && window.scrollY > 50) {
         setIsVisible(false);
         setActiveDropdown(null);
-      } else if (window.scrollY <= 50) {
+      } else if (window.scrollY <= 50 && window.innerWidth >= 768) {
         setIsVisible(true);
       }
     };
 
-    setIsVisible(window.scrollY <= 50 || forceShow);
+    setIsVisible((window.scrollY <= 50 && window.innerWidth >= 768) || forceShow);
 
     window.addEventListener('mousemove', handleMouseMove);
     window.addEventListener('scroll', handleScroll);
