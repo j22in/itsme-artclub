@@ -3,17 +3,14 @@ import { motion, AnimatePresence } from 'motion/react';
 
 export default function TvGallery() {
   const [currentIndex, setCurrentIndex] = useState(1);
-  const [showHint, setShowHint] = useState(true);
   const totalImages = 24;
 
   const handlePrev = () => {
     setCurrentIndex((prev) => (prev === 1 ? totalImages : prev - 1));
-    setShowHint(false);
   };
 
   const handleNext = () => {
     setCurrentIndex((prev) => (prev === totalImages ? 1 : prev + 1));
-    setShowHint(false);
   };
 
   return (
@@ -97,59 +94,55 @@ export default function TvGallery() {
           }}
         />
 
-        {/* Blinking Hint Text */}
+        {/* PC Blinking Hint Text */}
         <AnimatePresence>
-          {showHint && (
-            <motion.div
-              initial={{ opacity: 0 }}
-              animate={{ opacity: [0, 1, 1, 0] }}
-              exit={{ opacity: 0 }}
-              transition={{ 
-                duration: 2, 
-                times: [0, 0.3, 0.7, 1],
-                repeat: Infinity, 
-                repeatType: 'loop',
-                ease: 'easeInOut' 
-              }}
-              className="hidden md:flex absolute z-30 pointer-events-none text-[#FF5F1F] font-handy whitespace-nowrap items-center gap-1"
-              style={{
-                left: '86.5%',       // Moved right
-                top: '11.5%',        // Moved up
-                fontSize: 'clamp(12px, 1.8vw, 18px)' // scales with screen, max 18px
-              }}
-            >
-              ← Turn the dial!
-            </motion.div>
-          )}
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: [0, 1, 1, 0] }}
+            exit={{ opacity: 0 }}
+            transition={{ 
+              duration: 2, 
+              times: [0, 0.3, 0.7, 1],
+              repeat: Infinity, 
+              repeatType: 'loop',
+              ease: 'easeInOut' 
+            }}
+            className="hidden md:flex absolute z-30 pointer-events-none text-[#FF5F1F] font-handy whitespace-nowrap items-center gap-1"
+            style={{
+              left: '86.5%',       // Moved right
+              top: '11.5%',        // Moved up
+              fontSize: 'clamp(12px, 1.8vw, 18px)' // scales with screen, max 18px
+            }}
+          >
+            ← Turn the dial!
+          </motion.div>
         </AnimatePresence>
 
         {/* Mobile Blinking Hint Text */}
         <AnimatePresence>
-          {showHint && (
-            <motion.div
-              initial={{ opacity: 0 }}
-              animate={{ opacity: [0, 1, 1, 0] }}
-              exit={{ opacity: 0 }}
-              transition={{ 
-                duration: 2, 
-                times: [0, 0.3, 0.7, 1],
-                repeat: Infinity, 
-                repeatType: 'loop',
-                ease: 'easeInOut' 
-              }}
-              className="md:hidden absolute z-30 pointer-events-none text-[#FF5F1F] font-handy flex flex-col items-center leading-tight"
-              style={{
-                left: '76.6%',       // Centered roughly over the dials
-                top: '13.1667%',     // Aligned with dials
-                marginTop: '-80px',  // Moved up 80px
-                transform: 'translateX(-50%)',
-                fontSize: '14px'
-              }}
-            >
-              <span>Turn the dial!</span>
-              <span className="text-[12px]">↓</span>
-            </motion.div>
-          )}
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: [0, 1, 1, 0] }}
+            exit={{ opacity: 0 }}
+            transition={{ 
+              duration: 2, 
+              times: [0, 0.3, 0.7, 1],
+              repeat: Infinity, 
+              repeatType: 'loop',
+              ease: 'easeInOut' 
+            }}
+            className="md:hidden absolute z-30 pointer-events-none text-[#FF5F1F] font-handy flex flex-col items-center leading-tight"
+            style={{
+              left: '76.6%',       // Centered roughly over the dials
+              top: '13.1667%',     // Aligned with dials
+              marginTop: '-80px',  // Moved up 80px
+              transform: 'translateX(-50%)',
+              fontSize: '14px'
+            }}
+          >
+            <span>Turn the dial!</span>
+            <span className="text-[12px]">↓</span>
+          </motion.div>
         </AnimatePresence>
       </div>
     </div>
