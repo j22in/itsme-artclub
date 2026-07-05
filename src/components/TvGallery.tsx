@@ -17,10 +17,10 @@ export default function TvGallery() {
   };
 
   return (
-    <div className="w-full bg-transparent flex flex-col items-center justify-center py-20 px-4">
-      {/* Container with max-width 1000px and fixed aspect ratio to mimic the 1000x600 size */}
+    <div className="w-full h-screen bg-transparent flex flex-col items-center justify-center px-4 overflow-hidden">
+      {/* Container with max-width 650px (approx 65% of original 1000px) and fixed aspect ratio to mimic the 1000x600 size */}
       <div 
-        className="relative w-full max-w-[1000px]"
+        className="relative w-full max-w-[650px]"
         style={{ aspectRatio: '1000 / 600' }}
       >
         {/* Background TV Frame */}
@@ -89,10 +89,11 @@ export default function TvGallery() {
           {showHint && (
             <motion.div
               initial={{ opacity: 0 }}
-              animate={{ opacity: [0, 1, 0] }}
+              animate={{ opacity: [0, 1, 1, 0] }}
               exit={{ opacity: 0 }}
               transition={{ 
                 duration: 2, 
+                times: [0, 0.3, 0.7, 1],
                 repeat: Infinity, 
                 repeatType: 'loop',
                 ease: 'easeInOut' 
