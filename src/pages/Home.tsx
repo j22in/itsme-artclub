@@ -1,4 +1,5 @@
 import HeroSection from '../components/HeroSection';
+import TvGallery from '../components/TvGallery';
 
 interface HomeProps {
   onLogoHover?: (isHovered: boolean) => void;
@@ -16,6 +17,7 @@ export default function Home({ onLogoHover }: HomeProps) {
   return (
     <div className="w-full min-h-screen bg-transparent">
       <HeroSection onScrollToNext={scrollToNext} onLogoHover={onLogoHover} />
+      <TvGallery />
     </div>
   );
 }
