@@ -8,7 +8,6 @@ const ALPHA_SIZE    = 50; // px (fixed display size)
 // Drawing real pixel dimensions (w × h)
 const DRAWINGS: { id: string; w: number; h: number }[] = [
   { id: 'drawing_01', w: 91,  h: 83  },
-  { id: 'drawing_02', w: 87,  h: 84  },
   { id: 'drawing_03', w: 109, h: 105 },
   { id: 'drawing_04', w: 83,  h: 71  },
   { id: 'drawing_05', w: 92,  h: 108 },
