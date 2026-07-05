@@ -100,8 +100,8 @@ export default function TvGallery() {
               }}
               className="absolute z-30 pointer-events-none text-[#FF5F1F] font-handy whitespace-nowrap flex items-center gap-1"
               style={{
-                left: '83%',       // Placed right next to the next button
-                top: '13.5%',      // Vertically aligned
+                left: '85%',       // Moved right by ~20px
+                top: '12.1667%',   // Moved up by ~8px
                 fontSize: 'clamp(12px, 1.8vw, 18px)' // scales with screen, max 18px
               }}
             >
