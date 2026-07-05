@@ -20,19 +20,6 @@ export default function TvGallery() {
         className="relative w-full max-w-[650px]"
         style={{ aspectRatio: '1000 / 600' }}
       >
-        {/* Default Noise Background */}
-        <img 
-          src="/tv/tv_noise.gif" 
-          alt="TV Noise" 
-          className="absolute z-0"
-          style={{
-            left: '20%',
-            top: '16.6667%',
-            width: '48%',
-            height: '58.3333%',
-            borderRadius: '16% / 22%',
-          }}
-        />
         {/* Background TV Frame */}
         <img 
           src="/tv/TV.png" 
@@ -44,13 +31,16 @@ export default function TvGallery() {
         {/* Inner Gallery Image (Behind TV Frame if the frame has a transparent hole, or z-10) */}
         {/* We place it at z-10 so the TV frame overlaps it cleanly if there are rounded corners in the TV image transparency */}
         <div 
-          className="absolute z-10 overflow-hidden bg-neutral-200"
+          className="absolute z-10 overflow-hidden"
           style={{
             left: '20%',        // 200px / 1000px
             top: '16.6667%',    // 100px / 600px
             width: '48%',       // 480px / 1000px
             height: '58.3333%', // 350px / 600px
             borderRadius: '16% / 22%', // slight curvature matching typical CRT TV screen
+            backgroundImage: 'url(/tv/tv_noise.gif)',
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
           }}
         >
           <AnimatePresence mode="wait">
