@@ -61,7 +61,7 @@ export default function HeroSection({ onScrollToNext, onLogoHover }: HeroSection
     <div
       id="hero"
       ref={heroRef}
-      className="scroll-section w-full min-h-screen flex flex-col justify-start items-center bg-transparent select-none relative overflow-hidden text-center px-6 pt-24 md:pt-28"
+      className="scroll-section w-full min-h-screen flex flex-col justify-start items-center bg-transparent select-none relative overflow-hidden text-center px-6 pt-24 md:pt-28 snap-start"
     >
       {/* Bouncing alphabet images layer */}
       <BouncingAlphabets heroRef={heroRef} onFirstPin={handleFirstPin} />

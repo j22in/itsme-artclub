@@ -58,7 +58,7 @@ export default function App() {
       </div>
 
       {/* 4. Routing Container */}
-      <div className="w-full flex flex-col relative z-10 bg-transparent flex-grow pb-[12vh] md:pb-[18vh]">
+      <div className="w-full flex flex-col relative z-10 bg-transparent flex-grow">
         <Routes>
           <Route path="/" element={<Home onLogoHover={setIsLogoHovered} />} />
           <Route path="/our-story/itsme-art-club" element={<ItsMeArtClub />} />
@@ -86,6 +86,7 @@ export default function App() {
         html {
           background-color: #ffffff;
           scroll-behavior: smooth;
+          scroll-snap-type: y mandatory;
           overflow-y: auto !important;
           height: auto !important;
           min-height: 100vh;

@@ -17,12 +17,25 @@ export default function TvGallery() {
   };
 
   return (
-    <div className="w-full h-screen bg-transparent flex flex-col items-center justify-center px-4 overflow-hidden">
+    <div className="w-full h-[100svh] bg-transparent flex flex-col items-center justify-center px-4 overflow-hidden snap-start">
       {/* Container with max-width 650px (approx 65% of original 1000px) and fixed aspect ratio to mimic the 1000x600 size */}
       <div 
         className="relative w-full max-w-[650px]"
         style={{ aspectRatio: '1000 / 600' }}
       >
+        {/* Default Noise Background */}
+        <img 
+          src="/tv/tv_noise.gif" 
+          alt="TV Noise" 
+          className="absolute z-0"
+          style={{
+            left: '20%',
+            top: '16.6667%',
+            width: '48%',
+            height: '58.3333%',
+            borderRadius: '16% / 22%',
+          }}
+        />
         {/* Background TV Frame */}
         <img 
           src="/tv/TV.png" 
@@ -98,14 +111,42 @@ export default function TvGallery() {
                 repeatType: 'loop',
                 ease: 'easeInOut' 
               }}
-              className="absolute z-30 pointer-events-none text-[#FF5F1F] font-handy whitespace-nowrap flex items-center gap-1"
+              className="hidden md:flex absolute z-30 pointer-events-none text-[#FF5F1F] font-handy whitespace-nowrap items-center gap-1"
               style={{
-                left: '85%',       // Moved right by ~20px
-                top: '12.1667%',   // Moved up by ~8px
+                left: '86.5%',       // Moved right
+                top: '11.5%',        // Moved up
                 fontSize: 'clamp(12px, 1.8vw, 18px)' // scales with screen, max 18px
               }}
             >
               ← Turn the dial!
+            </motion.div>
+          )}
+        </AnimatePresence>
+
+        {/* Mobile Blinking Hint Text */}
+        <AnimatePresence>
+          {showHint && (
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ opacity: [0, 1, 1, 0] }}
+              exit={{ opacity: 0 }}
+              transition={{ 
+                duration: 2, 
+                times: [0, 0.3, 0.7, 1],
+                repeat: Infinity, 
+                repeatType: 'loop',
+                ease: 'easeInOut' 
+              }}
+              className="md:hidden absolute z-30 pointer-events-none text-[#FF5F1F] font-handy flex flex-col items-center leading-tight"
+              style={{
+                left: '76.6%',       // Centered roughly over the dials
+                top: '2%',           // Above the dials
+                transform: 'translateX(-50%)',
+                fontSize: '14px'
+              }}
+            >
+              <span>Turn the dial!</span>
+              <span className="text-[12px]">↓</span>
             </motion.div>
           )}
         </AnimatePresence>
