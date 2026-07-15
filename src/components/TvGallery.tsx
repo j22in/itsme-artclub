@@ -15,6 +15,11 @@ export default function TvGallery() {
 
   return (
     <div className="w-full h-[100svh] bg-transparent flex flex-col items-center justify-center px-4 overflow-hidden snap-start">
+      {/* '이츠미TV' Text Overlay above the TV */}
+      <div className="text-[#FF5F1F] font-handy tracking-wider mb-6 text-center w-full" style={{ fontSize: 'clamp(20px, 3vw, 26px)' }}>
+        이츠미TV
+      </div>
+      
       {/* Container with max-width 650px (approx 65% of original 1000px) and fixed aspect ratio to mimic the 1000x600 size */}
       <div 
         className="relative w-full max-w-[650px]"
@@ -84,18 +89,6 @@ export default function TvGallery() {
           }}
         />
 
-        {/* '이츠미TV' Text Overlay */}
-        <div 
-          className="absolute z-30 pointer-events-none text-[#FF5F1F] font-handy tracking-wider"
-          style={{
-            left: '20%',
-            top: '10.5%',
-            fontSize: 'clamp(14px, 2vw, 18px)',
-          }}
-        >
-          이츠미TV
-        </div>
-
         {/* PC Blinking Hint Text */}
         <AnimatePresence>
           <motion.div
@@ -109,7 +102,7 @@ export default function TvGallery() {
               repeatType: 'loop',
               ease: 'easeInOut' 
             }}
-            className="hidden md:flex absolute z-30 pointer-events-none text-[#FF5F1F] font-handy whitespace-nowrap items-center gap-1"
+            className="hidden md:flex absolute z-30 pointer-events-none text-black font-handy whitespace-nowrap items-center gap-1"
             style={{
               left: '86.5%',       // Moved right
               top: '11.5%',        // Moved up
@@ -133,7 +126,7 @@ export default function TvGallery() {
               repeatType: 'loop',
               ease: 'easeInOut' 
             }}
-            className="md:hidden absolute z-30 pointer-events-none text-[#FF5F1F] font-handy flex flex-col items-center leading-tight"
+            className="md:hidden absolute z-30 pointer-events-none text-black font-handy flex flex-col items-center leading-tight"
             style={{
               left: '76.6%',       // Centered roughly over the dials
               top: '13.1667%',     // Aligned with dials
