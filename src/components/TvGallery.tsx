@@ -84,6 +84,18 @@ export default function TvGallery() {
           }}
         />
 
+        {/* '이츠미TV' Text Overlay */}
+        <div 
+          className="absolute z-30 pointer-events-none text-[#FF5F1F] font-handy tracking-wider"
+          style={{
+            left: '20%',
+            top: '10.5%',
+            fontSize: 'clamp(14px, 2vw, 18px)',
+          }}
+        >
+          이츠미TV
+        </div>
+
         {/* PC Blinking Hint Text */}
         <AnimatePresence>
           <motion.div
