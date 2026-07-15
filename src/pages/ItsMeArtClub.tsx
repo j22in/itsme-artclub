@@ -76,7 +76,7 @@ export default function ItsMeArtClub() {
         <div>
           <Link 
             to="/our-story/classes" 
-            className="inline-block text-[13px] font-sans font-medium text-neutral-500 hover:text-orange-500 transition-colors border-b border-neutral-400 hover:border-orange-500 pb-0.5 mt-8"
+            className="inline-block text-[13px] font-sans font-medium text-[#FF5F1F] hover:text-black transition-colors border-b border-[#FF5F1F] hover:border-black pb-0.5 mt-8"
           >
             classes →
           </Link>
