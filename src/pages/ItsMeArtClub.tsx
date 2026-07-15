@@ -61,7 +61,7 @@ export default function ItsMeArtClub() {
           </h2>
           <div className="space-y-1 text-[14px] font-sans font-light text-neutral-500">
             <p>Creative Experiences for Kids</p>
-            <p>아이들에게 오래 기억에 남을 경험을 디자인합니다.</p>
+            <p>아이들에게 오래 기억에 남을 경험을 선물합니다.</p>
           </div>
         </div>
 
