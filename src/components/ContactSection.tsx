@@ -70,7 +70,7 @@ export default function ContactSection() {
             Business Partnership
           </h2>
           <p className="text-[13px] font-sans font-light text-[#4F4A45] max-w-lg mx-auto mt-3">
-            이츠미아트클럽의 독보적인 감각 프로그램과 시너지 나는 협업을 펼쳐보세요.
+            이츠미아트클럽과 함께 아이들에게 선물 같은 시간을 만들어가요.
           </p>
         </motion.div>
 
