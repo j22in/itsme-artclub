@@ -66,7 +66,7 @@ export default function BookClassSection() {
   const displayClasses = classes.filter(item => item.isVisible);
 
   return (
-    <div id="classes" className="scroll-section w-full bg-transparent py-20 md:py-28 select-none relative min-h-[120vh] flex flex-col justify-start pb-[20vh]">
+    <div id="classes" className="scroll-section w-full bg-transparent select-none relative flex flex-col justify-center py-10 md:py-16">
       
       {/* Centered Main Content */}
       <div className="max-w-[700px] mx-auto px-6 w-full flex-1 flex flex-col justify-center py-8">
