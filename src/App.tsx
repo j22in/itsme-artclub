@@ -7,6 +7,7 @@ import Home from './pages/Home';
 import Classes from './pages/Classes';
 import ItsMeArtClub from './pages/ItsMeArtClub';
 import Business from './pages/Business';
+import BookAClass from './pages/BookAClass';
 
 export default function App() {
   const [isLogoHovered, setIsLogoHovered] = useState(false);
@@ -61,6 +62,7 @@ export default function App() {
       <div className="w-full flex flex-col relative z-10 bg-transparent flex-grow">
         <Routes>
           <Route path="/" element={<Home onLogoHover={setIsLogoHovered} />} />
+          <Route path="/book-a-class" element={<BookAClass />} />
           <Route path="/our-story/itsme-art-club" element={<ItsMeArtClub />} />
           <Route path="/our-story/classes" element={<Classes />} />
           <Route path="/business" element={<Business />} />

@@ -64,6 +64,7 @@ export default function Navbar({ forceShow = false, onMenuToggle }: NavbarProps)
 
   const menuItems = [
     { id: 'home', label: 'Home', path: '/' },
+    { id: 'book-a-class', label: 'book a class', path: '/book-a-class' },
     { 
       id: 'our-story', 
       label: 'our story', 

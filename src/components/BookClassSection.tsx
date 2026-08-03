@@ -6,7 +6,7 @@ import { RefreshCw, CheckCircle2, AlertCircle, Settings } from 'lucide-react';
 // 웹에 게시(CSV)한 구글 시트 주소를 여기에 입력해두면 모든 방문자에게 실시간 자동 반영됩니다.
 const GOOGLE_SHEET_CSV_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQ_CfIeU_9v52aWFFWwN8SrKSNtYR2weTK3WE02NLrOxHyN-7s5SJOHk9TXuvcgIgEfcC_eLq-_3IIj/pub?gid=1552204772&single=true&output=csv';
 
-export default function FindClassSection() {
+export default function BookClassSection() {
   const [classes, setClasses] = useState<ArtClass[]>(DEFAULT_CLASSES);
   const [loading, setLoading] = useState(false);
   
@@ -70,7 +70,7 @@ export default function FindClassSection() {
       
       {/* Centered Main Content */}
       <div className="max-w-[700px] mx-auto px-6 w-full flex-1 flex flex-col justify-center py-8">
-        {/* Find a Class Section Header */}
+        {/* Book a Class Section Header */}
         <motion.div 
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -79,7 +79,7 @@ export default function FindClassSection() {
           className="text-center space-y-2 mb-16"
         >
           <h2 className="text-[33px] font-handy font-normal text-[#FF5F1F] tracking-wide">
-            Find a Class
+            Book a Class
           </h2>
           <p className="text-[14px] font-sans font-light text-[#4F4A45]">
             지금 우리 아이와 가장 가까운 이츠미아트클럽을 만나보세요.
